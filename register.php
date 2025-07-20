@@ -51,8 +51,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <div class="relative z-10 max-w-md w-full bg-white p-8 rounded-xl shadow-2xl space-y-6">
         <div>
+            <img src="uploads/Foto Profil/LogoTicketing.png" alt="Logo Aplikasi" class="mx-auto w-24 h-24 object-contain mb-4">
             <h2 class="text-center text-3xl font-bold text-gray-800">
-                Register Akun Baru
+                Register
             </h2>
         </div>
 
@@ -136,4 +137,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   });
 </script>
 
-<?php include 'footer.php'; ?>
+<?
