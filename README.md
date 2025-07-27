@@ -1,5 +1,45 @@
 # Ticketing
 
+Sistem pemesanan tiket online untuk **pesawat**, **kereta**, **kapal**, **penginapan**, dan **kendaraan**.  
+
+> **Catatan:** Sebelum melakukan transaksi, **wajib melakukan registrasi dan login terlebih dahulu**.
+
+---
+
+## 🌐 Alamat Domain Project
+Project ini sudah di-deploy dan dapat diakses secara publik di:  
+**[https://tiketkuuu.free.nf](https://tiketkuuu.free.nf)**  
+*(Atau gunakan link yang tersedia di dokumen proyek)*
+
+---
+
+## ⚙️ Cara Pemasangan (Instalasi Lokal / Pindah Server)
+
+Jika Anda hendak menjalankan project ini di komputer sendiri atau di server lain, ikuti langkah-langkah berikut:
+
+### 1. Salin Source Code
+- **Clone** repository (jika tersedia di GitHub/GitLab), atau  
+- **Unduh** seluruh file **PHP**, **CSS (Tailwind)**, dan folder **assets**, lalu letakkan di folder root web server:  
+  - Untuk **XAMPP**: `htdocs/tiketkuuu`  
+  - Untuk **LAMP**: `www/tiketkuuu`
+
+### 2. Siapkan Database
+- Buat database baru di **MySQL/MariaDB**:  
+  ```sql
+  CREATE DATABASE ticketing;
+
+### 3. Konfigurasi Koneksi
+- Buka file config.php dan sesuaikan parameter koneksi database:
+$host = 'localhost';
+$user = 'root';
+$pass = '';
+$db   = 'ticketing'; (sesuaikan dengan database)
+
+### 4. Jalankan Aplikasi
+- Lokal: buka di browser (http://localhost/(nama folder)/login.php
+- Server: arahkan domain/subdomain Anda ke folder project.
+- Registrasi akun baru, kemudian login untuk mulai memesan tiket.
+
 
 **Ticketing API Documentation**
 Dokumentasi API untuk backend server aplikasi Ticketing (pemesanan tiket pesawat, kereta, kapal, penginapan, dan kendaraan).
