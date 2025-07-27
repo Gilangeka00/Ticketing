@@ -30,6 +30,7 @@ Jika Anda hendak menjalankan project ini di komputer sendiri atau di server lain
 
 ### 3. Konfigurasi Koneksi
 - Buka file config.php dan sesuaikan parameter koneksi database:
+  ```sql
 $host = 'localhost';
 $user = 'root';
 $pass = '';
