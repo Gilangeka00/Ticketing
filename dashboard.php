@@ -595,4 +595,4 @@ if (isset($_SESSION['flash_message'])) {
         <?php endforeach; ?>
     </div>
 
-    <?php include 'footer.php'; ?>
+    <?

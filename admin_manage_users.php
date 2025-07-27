@@ -144,4 +144,4 @@ $totalPages = ceil($totalUsers / $limit);
     </section>
 </div>
 
-<?php include 'footer.php'; ?>
+<?
