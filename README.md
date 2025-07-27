@@ -30,11 +30,12 @@ Jika Anda hendak menjalankan project ini di komputer sendiri atau di server lain
 
 ### 3. Konfigurasi Koneksi
 - Buka file config.php dan sesuaikan parameter koneksi database:
-  ```sql
+  <?php
 $host = 'localhost';
 $user = 'root';
 $pass = '';
 $db   = 'ticketing'; (sesuaikan dengan database)
+?>
 
 ### 4. Jalankan Aplikasi
 - Lokal: buka di browser (http://localhost/(nama folder)/login.php
