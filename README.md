@@ -20,8 +20,8 @@ Jika Anda hendak menjalankan project ini di komputer sendiri atau di server lain
 ### 1. Salin Source Code
 - **Clone** repository (jika tersedia di GitHub/GitLab), atau  
 - **Unduh** seluruh file **PHP**, **CSS (Tailwind)**, dan folder **assets**, lalu letakkan di folder root web server:  
-  - Untuk **XAMPP**: `htdocs/tiketkuuu`  
-  - Untuk **LAMP**: `www/tiketkuuu`
+  - Untuk **XAMPP**: `htdocs/ticketing`  
+  - Untuk **LAMP**: `www/ticketing`
 
 ### 2. Siapkan Database
 - Buat database baru di **MySQL/MariaDB**:  
@@ -44,7 +44,7 @@ $db   = 'ticketing'; // sesuaikan dengan nama database
 - Server: arahkan domain/subdomain Anda ke folder project.
 - Registrasi akun baru, kemudian login untuk mulai memesan tiket.
 
-
+<br><br>
 **Ticketing API Documentation**
 Dokumentasi API untuk backend server aplikasi Ticketing (pemesanan tiket pesawat, kereta, kapal, penginapan, dan kendaraan).
 
