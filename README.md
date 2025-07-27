@@ -36,6 +36,7 @@ $host = 'localhost';
 $user = 'root';
 $pass = '';
 $db   = 'ticketing'; // sesuaikan dengan nama database
+``` 
 
 
 ### 4. Jalankan Aplikasi
