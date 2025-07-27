@@ -40,7 +40,7 @@ $db   = 'ticketing'; // sesuaikan dengan nama database
 
 
 ### 4. Jalankan Aplikasi
-- Lokal: buka di browser (http://localhost/(nama folder)/login.php
+- Lokal: buka di browser `http://localhost/(nama folder)/login.php`
 - Server: arahkan domain/subdomain Anda ke folder project.
 - Registrasi akun baru, kemudian login untuk mulai memesan tiket.
 
