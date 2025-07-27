@@ -45,7 +45,7 @@ $db   = 'ticketing'; // sesuaikan dengan nama database
 - Registrasi akun baru, kemudian login untuk mulai memesan tiket.
 
 <br><br>
-**Ticketing API Documentation**
+## **Ticketing API Documentation**
 Dokumentasi API untuk backend server aplikasi Ticketing (pemesanan tiket pesawat, kereta, kapal, penginapan, dan kendaraan).
 
 ---
