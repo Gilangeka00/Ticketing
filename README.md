@@ -29,13 +29,14 @@ Jika Anda hendak menjalankan project ini di komputer sendiri atau di server lain
   CREATE DATABASE ticketing;
 
 ### 3. Konfigurasi Koneksi
-- Buka file config.php dan sesuaikan parameter koneksi database:
-  <?php
+- Buka file `config.php` dan sesuaikan parameter koneksi database:
+
+```php
 $host = 'localhost';
 $user = 'root';
 $pass = '';
-$db   = 'ticketing'; (sesuaikan dengan database)
-?>
+$db   = 'ticketing'; // sesuaikan dengan nama database
+
 
 ### 4. Jalankan Aplikasi
 - Lokal: buka di browser (http://localhost/(nama folder)/login.php
